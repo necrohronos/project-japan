@@ -1,0 +1,73 @@
+/*grid*/
+.container {
+  display: grid | inline-grid;
+    grid-template-columns: auto auto 200px auto;
+  grid-template-rows: 10px 150px 50px auto 100px 10px;
+    grid-template-areas: 
+        ". . . . "
+        ". header header ."
+        ". main aside ."
+        ". footer footer ."
+        ". . . . "
+}
+.item {
+  grid-column-start: <number> | <name> | span <number> | span <name> | auto
+  grid-column-end: <number> | <name> | span <number> | span <name> | auto
+  grid-row-start: <number> | <name> | span <number> | span <name> | auto
+      grid-row-end: <number> | <name> | span <number> | span <name> | auto}
+.item-1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-area: header;
+}
+.item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+    grid-area: navbar;
+}
+.item-3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+    grid-area: section;
+}
+.item-4 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+    grid-area: aside;
+}
+.item-5 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+    grid-area: footer;
+}
+/*Navigation*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: darkgrey;
+}
+a:hover {color: black; transition: 1s}
+a:visited{color:darkgrey;}

@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+p {
+    margin-left: 5px;
+}
+.rising-sun {
+    color: #EC161A;
+    margin-left: 14px;
+}
+.site-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 2px darkgrey; 
+}
+.site-subtitle {
+    margin-top: 0;
+     text-shadow: 2px 2px 2px darkgrey;
+}
+.sakura-menu {
+    margin-left: -40px;
+    list-style-type: none;
+}
+.sakura-menu a {
+    text-decoration: none;
+    color: darkgray;
+}
+.sakura-menu a:hover {
+  color: #EC161A;
+transition: 2s;    
+    
+}
+.grid-item9 {text-align: right;}
+
+@media screen and (max-width:780px) {
+    body {font-size: 0.9em}
+    .site-title {
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 0.9em; 
+        text-shadow: none;
+}
+.site-subtitle {
+    margin-top: 0;
+    font-size: 0.6em;
+    text-shadow: none;}
+
+.rising-sun {
+    font-size: 2.2em;
+}
+    .grid-item9 {text-align: left; font-size: 0.7em;}}

@@ -1,0 +1,16 @@
+.container {
+    background-image: url(../img/washi.png);
+    background-repeat: repeat;
+}
+a{
+    text-decoration: none;
+    color: darkgrey;
+        
+}
+a:hover {
+    color: rgb(199,0,37);
+    transition: 1s;
+}
+a:visited {
+    color: darkgrey;
+}

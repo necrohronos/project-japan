@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+}
+p {
+    margin-left: 5px;
+}
+/*HEADER*/
+.rising-sun {
+    color: #EC161A;
+    margin-left: 14px;
+}
+.site-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 2px darkgrey; 
+}
+.site-subtitle {
+    margin-top: 0;
+     text-shadow: 2px 2px 2px darkgrey;
+}
+.size {
+    width: 29px;
+    height: 29px;
+    background-color: #000;
+    border: 0;
+    float: right;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+/*MENU*/
+.grid-item2 {
+    padding: 0px;
+}
+/*
+.sakura-menu {
+    list-style-type: none;
+    margin 0;
+    padding: 0;
+    overflow: hidden;
+}
+.sakura-menu li {
+    float: left;
+    border-right: 1px solid lightgray;
+}
+
+.sakura-menu li a {
+    display: block;
+    text-decoration: none;
+    color: darkgray;
+    text-align: center;
+}
+.jed {color: #fff; float: right; background-color: #EC161A; border: none;}
+.jed>a {color: #fff}
+.sakura-menu a:hover {
+  color: #EC161A;
+transition: 2s;    
+    
+}
+*/
+.grid-item9 {text-align: right;}
+.sakura-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sakura-menu li {
+    float: left;
+    border-right:2px solid lightgrey;
+}
+
+.sakura-menu li:last-child {
+    border-right: none;
+    
+}
+.sakura-menu li:last-child a {
+color: #fff;}
+
+.sakura-menu li a {
+    display: block;
+    color: darkgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sakura-menu li a:hover:not(.active) {
+    color: #EC161A;
+    transition: 1s;
+}
+
+.active {
+    background-color: #EC161A;
+    width: 288px;
+}
+.active:hover {
+    text-shadow: 5px 5px 2px darkgrey;
+    transition: 1s;
+}
+.social-header {
+    float: right;
+}
+/*RESZTA*/
+.red-button {
+    background-color: #EC161A;
+    color: #fff;
+    border: 0;
+}
+.art-title {
+    background-color: #EC161A;
+    box-shadow: 2px 2px 2px darkgrey;
+    border-bottom-right-radius: 5px;
+    margin-left: -10px;
+    padding-left: 10px;
+    height: 30px;
+    vertical-align: middle;
+}
+.art-title h3 {
+    color: #fff;
+    padding-top: 4px;
+}
+.art-title a {
+    color: #fff;
+}
+#jp-gov {
+    display: none;
+}
+#jp-tour {
+    display: none;
+}
+/*RDW*/
+@media screen and (max-width:780px) {
+    body {font-size: 0.9em}
+    .site-title {
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 0.9em; 
+        text-shadow: none;
+}
+.site-subtitle {
+    margin-top: 0;
+    font-size: 0.6em;
+    text-shadow: none;}
+
+.rising-sun {
+    font-size: 2.2em;
+}
+    .grid-item9 {text-align: left; font-size: 0.7em;}
+    .social-header {display: none;}
+}
